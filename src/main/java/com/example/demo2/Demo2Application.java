@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 public class Demo2Application {
     @GetMapping("/greetings")
-    public String greetings(@RequestParam(value = "name",defaultValue = "kingkade")String name){
+    public String greetings(@RequestParam(value = "name",defaultValue = "kingkadee")String name){
         return String.format("hello %s",name);
     }
     public static void main(String[] args){
